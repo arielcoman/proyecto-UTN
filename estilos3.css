@@ -1,0 +1,200 @@
+*{ 
+	;font-family: 'Segoe UI bold', sans-serif ;
+	font-size: 10px}
+body {width: 100%; margin:0;}
+#general { display: flex; flex-wrap: wrap-reverse;} 
+
+a { text-decoration: none;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    outline: none;
+    color: white
+   }
+
+img {  }
+aside h1{ font-size: 2em; display: flex;}	
+	
+aside img{ padding: 10px; margin-left: 5px; }
+
+#logo { align-self: flex-start;}
+
+.opcion2 { display: flex;  }
+
+
+aside { box-shadow: 3px 0px 6px 0px #cccccc;
+		height: 95vh;
+		flex: 12%;
+		align-items: center;
+		overflow: auto;
+		flex-direction: column;
+		
+		box-sizing: border-box;
+		background-color: #202020;
+		padding: 1em 1em 1em 2em;
+		min-width: 140px;
+		max-width: 180px;
+		}
+
+
+aside h1 { color: #E8E8E8;
+		 font-size: 1.5em; 
+		 ;letter-spacing: 0.1em;
+   		 line-height: 1;outline: none;margin: 0;
+   		  }
+
+aside ul { ;padding: 0px; }
+
+aside li {display: flex;
+	font-weight: bold;
+		list-style: none;
+		padding: 10px 0px 10px 0px;
+}
+aside img  { padding: 0; }
+
+aside a{
+    text-decoration: none;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    color: #E8E8E8;
+    display: flex;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    ;
+} 
+
+aside p {color: white;}
+
+aside h5{ color: black; padding:  20px 0 0 0;  margin:0; }	
+
+aside img {-webkit-height:30%;}
+
+section{flex: 88%;
+		height: 95vh; ;list-style: none;box-sizing: border-box;
+		}
+
+
+/** prueba menu desplegable*/
+.menu { display: flex; }
+/* Reset Select */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  border: grey solid 0.1em;
+  background: white;
+  
+}
+/* Custom Select */
+.select {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 10em;
+  height: 2em;
+  line-height: 5;
+  background: white;
+  overflow: hidden;
+  border: grey;
+  padding: 0 0 0 2em;
+}
+select {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 0 0 2em;
+  color: black;
+  cursor: pointer;
+}
+
+/* Transition */
+.select:hover::after {
+  color: #f39c12;
+}
+.select::after {
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+
+
+/** Pagina home **/
+
+
+article{ padding: 3em;
+	box-sizing: border-box;
+	font-size: 1em;
+	width: 100%; 
+		overflow: auto;
+		background-color: #F8F8F8;
+		 
+		}
+#redes img { height: 4vh; }
+nav { display: flex; width: 100%; 
+	justify-content: space-between; 
+	box-sizing: border-box; padding: 2em;
+	background-color:white;
+}
+/** barra de busqueda **/
+#busqueda { display: flex;width: 100%;height: 3vh;
+	;
+	 }
+/** contenedor de las listas de canción**/
+#conchatuya { display: flex; justify-content: center; }
+#lista { display: flex;width: 80%;  
+	flex-direction: column; 
+    ;box-sizing: content-box;background-color: #E8E8E8;}
+/** contenedor de cada cancion **/
+.cancion {display: flex; background-color: white;
+	justify-content: space-between;
+	align-items: center; margin: 2em; width: 95%; height: 10vh; }
+/** detalle de cada parte de una columna**/
+#lista h1 { font-size: 2em;
+           padding-left: 2em; }
+.play {display: flex;
+       height: 100%; 
+       align-items: center;}
+
+.play img  {height: 7vh; 
+            padding-right: 1em;}
+
+.descripcion a {color: black ;
+                font-size: 1.5em;flex: 100%;
+	              letter-spacing: 0; }
+
+.descripcion a span {font-size: 1em ;
+                    font-weight: bolder; }
+
+.Instrumentos-que-tiene {display: flex; 
+                          height: 100%;
+                          align-items: center; }
+.Instrumentos-que-tiene img {height: 90%; 
+	                           padding-right: 2em;}
+
+footer {background-color:#222;
+ color:white; font-size: 1em; }
+
+
+/** comienza la parte de carga del proyecto **/
+ 
+
+#nuevoproyecto { padding:2em; border:grey solid; width: 30%;
+}
+.Instrumentos { height: 5em; width: 5em; }
+
+#formgeneral { display: flex;justify-content: center; }
+
+#formulario { background-color: #E8E8E8; width: 50%;
+            align-self: center;}
+/** estilo para cada item **/            
+.datos-del-proyecto { padding: 1em; }
+.datos-del-proyecto label  { font-size: 1.5em; }
+.datos-del-proyecto input{ padding: 0.2em; }
+.datos-del-proyecto h1 { font-size: 2em; padding: 0.5em;margin:0; }
+.datos-del-proyecto h3 { font-size: 1.5em; }
+/** INFLUYE SOLAMENTE EN LA PAGINA DE LA CANCION **/
+.datos-del-proyecto h4 { font-weight: normal; margin:0; font-size: 1.5em; }

@@ -1,0 +1,21 @@
+*{ 
+	;font-family: 'Segoe UI bold', sans-serif ; }
+body { background-image: url(trent.png); 
+	background-repeat: no-repeat; width: 100%;flex-wrap: nowrap;}
+nav { display: flex; height: 15vh; width: 100%;}
+section { display: flex; height: 84vh; width: 100%;}
+
+#publicar { display: inline-flex;width: 50%
+			; justify-content: center;
+			align-items: center;}
+#explorar { display: inline-flex;width: 50%
+			; justify-content: center;
+			align-items: center; color: white;}
+
+.boton1 { background: red;; }
+
+a { cursor: pointer;
+	color:white ; text-decoration: none;
+	 font-weight: bold;
+	 font-size: 2em;
+   }
